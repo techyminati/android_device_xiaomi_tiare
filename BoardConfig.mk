@@ -57,5 +57,10 @@ BOARD_USES_QCOM_HARDWARE := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# SELinux
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/temp
+
 # VNDK
 BOARD_VNDK_VERSION := current
