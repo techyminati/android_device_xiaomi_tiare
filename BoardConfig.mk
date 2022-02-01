@@ -17,3 +17,6 @@ TARGET_CPU_VARIANT := cortex-a53
 # Platform
 TARGET_BOARD_PLATFORM := msm8937
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno308
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := tiare,tiarein
