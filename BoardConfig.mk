@@ -53,3 +53,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
+
+# VNDK
+BOARD_VNDK_VERSION := current
