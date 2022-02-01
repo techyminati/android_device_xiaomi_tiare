@@ -21,6 +21,9 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno308
 # Assert
 TARGET_OTA_ASSERT_DEVICE := tiare,tiarein
 
+# Props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8937
 TARGET_NO_BOOTLOADER := true
