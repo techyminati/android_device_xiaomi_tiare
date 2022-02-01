@@ -67,3 +67,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/temp
 
 # VNDK
 BOARD_VNDK_VERSION := current
+
+# System Only
+BUILD_WITHOUT_VENDOR := true
