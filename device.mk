@@ -22,3 +22,6 @@ TARGET_SCREEN_WIDTH := 720
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 27
+
+# Call proprietary blobs setup
+$(call inherit-product-if-exists, vendor/xiaomi/tiare/tiare-vendor.mk)
